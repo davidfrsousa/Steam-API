@@ -13,6 +13,7 @@
     <div class="row">
         <div class="col-6 text-center">
             <form action="/searchId" method="POST">
+                <label class="my-3 fs-5" for="name">1. Search Game Name and copy the ID</label>
                 <input class="form-control my-3" type="text" name="name">
                 <button class="btn btn-danger" type="submit">Search appid</button>
             </form> 
@@ -20,6 +21,7 @@
 
         <div class="col-6 text-center">
             <form action="/searchInfo" method="POST">
+                <label class="my-3 fs-5" for="appid">2. Paste the ID and see the information</label>
                 <input class="form-control my-3" type="text" name="appid">
                 <button class="btn btn-success" type="submit">Search Info</button>
             </form>
